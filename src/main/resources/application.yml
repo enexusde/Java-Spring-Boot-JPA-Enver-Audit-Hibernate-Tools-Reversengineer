@@ -1,0 +1,7 @@
+spring:
+    jpa.hibernate.ddl-auto: update
+spring.datasource:
+        url: jdbc:postgresql:codereview-audit
+        username: codereview-audit
+        driverClassName: org.postgresql.Driver
+        password: codereview-audit
